@@ -1,0 +1,21 @@
+.buttonBlue, .buttonBlue:hover{
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: #FFFFFF !important;
+    background: #2075BC !important;
+    border-radius: 6px !important;
+    border: none !important;
+}
+.buttonWhite, .buttonWhite:hover{
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: #2075BC !important;
+    background: #FFFFFF !important;
+    border-radius: 6px !important;
+    border: 1px solid #2075BC !important;
+    margin-top: 20px !important;
+}

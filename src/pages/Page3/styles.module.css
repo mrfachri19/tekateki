@@ -1,0 +1,195 @@
+.pages {
+  width: 100%;
+  overflow: visible auto;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 480px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.pages::-webkit-scrollbar {
+  display: none !important;
+}
+.containerHeader {
+  position: absolute;
+  background-color: white;
+  padding: 0px 30px !important;
+}
+.imgLogo {
+  width: 100px;
+}
+.imgMenu {
+  width: 50px;
+}
+.rowHeader {
+  /* padding-top: 30px !important; */
+  /* padding-bottom: 250px; */
+  padding: 24px;
+  background-color: black;
+  align-items: center;
+}
+.textWallet {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #d6b87c;
+}
+.textWallet2 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #bfa164;
+}
+.textWalletp {
+  font-weight: 600;
+  font-size: 12px;
+}
+.textWallet3 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #d6b87c;
+}
+.textWallet3 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #d6b87c;
+}
+.textWallet4 {
+  font-weight: 400;
+  font-size: 12px;
+}
+.rowCard {
+  place-items: center;
+  padding: 20px 12px;
+  width: 89% !important;
+  margin: -200px 0px !important;
+  border-radius: 6px;
+  background-color: #ffff;
+  position: absolute;
+}
+.textTotalWallet {
+  margin: 0;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 12px;
+}
+.textWallet {
+  margin: 0;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 14px;
+}
+.textAddNewWallet {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 10px;
+  color: #2075bc;
+  margin-left: 10px;
+}
+.backgroundCard {
+  width: 350px;
+}
+.wrapperSliderHorizontal {
+  display: flex;
+  overflow-x: auto;
+}
+
+.colCard {
+  position: relative;
+  margin-right: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.wrapperSliderHorizontal::-webkit-scrollbar {
+  display: none !important;
+}
+.textBalance {
+  color: #fff;
+  font-family: "Rubik";
+  font-size: 12px;
+  margin: 0;
+}
+.textIdr,
+.textPoint {
+  margin: 0;
+  color: #fff;
+  font-family: "Rubik";
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.btnDeposite,
+.btnDeposite:hover {
+  background: #2075bc !important;
+  border-radius: 6px !important;
+  font-family: "Rubik" !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  color: #ffffff !important;
+  bottom: -20px !important;
+  padding: 5px 40px !important;
+  right: 70px !important;
+  position: absolute;
+  border-color: transparent !important;
+}
+.btnWithdraw,
+.btnWithdraw:hover {
+  background: #cd1225 !important;
+  border-color: transparent !important;
+  border-radius: 6px !important;
+  font-family: "Rubik" !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  color: #ffffff !important;
+  bottom: -20px !important;
+  padding: 5px 20px !important;
+  right: 0 !important;
+  position: absolute;
+}
+.textActivity {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  color: #2d2d2d;
+}
+.textToday {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 14px;
+  color: #2d2d2d;
+}
+.containerBottom {
+  margin-top: 30px;
+  padding: 0px 20px !important;
+  max-height: 400px;
+  height: 400px;
+}
+.textTime {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 12px;
+  color: #35405a;
+}
+.textDanger {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #f90013;
+  text-align: right;
+}
+.textGreen {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: green;
+  text-align: right;
+}
+.wrapperSliderVertical {
+  height: 400px;
+  width: 430px;
+  overflow: visible auto;
+}
+.wrapperSliderVertical::-webkit-scrollbar {
+  display: none !important;
+}

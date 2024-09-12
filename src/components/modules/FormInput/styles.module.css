@@ -1,0 +1,13 @@
+.labelForm{
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #2D2D2D !important;
+}
+.formControl{
+    font-family: 'Rubik' !important;
+    font-style: normal !important;
+    font-size: 12px !important;
+    background-color: #F3F3F4 !important;
+}

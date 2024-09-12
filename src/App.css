@@ -1,0 +1,132 @@
+/* Hamburger Menu */
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 20px;
+  height: 15px;
+  /* left: 36px; */
+  /* top: 36px; */
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #ffff;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #ffff;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 18px;
+  width: 18px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #282c34;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #fff;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #2D2D2D;
+  padding: 12px;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+/* .bm-overlay {
+  margin-left: 200px !important;
+  background: transparent !important;
+  width: 60px !important;
+} */
+/* Last Hamburger menu */
+.App {
+  text-align: center;
+}
+
+.pages{
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow-y: scroll;
+  transform: translate(-50%,-50%);
+  max-width: 480px;
+  padding-bottom: 60px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-control:focus {
+  box-shadow: none !important;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
